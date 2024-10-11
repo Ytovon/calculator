@@ -10,8 +10,20 @@ namespace kalkulacka
     {
         static void Main(string[] args)
         {
+            double prvniCislo;
+            double druheCislo;
 
-            Kalkulacka kalkulacka = new Kalkulacka(3,5);
+            Console.WriteLine("Napište hodnotu prvniho čisla:");
+            while (!double.TryParse(Console.ReadLine(), out prvniCislo))
+
+            Console.WriteLine("Napište hodnotu druheho čisla:");
+            while (!double.TryParse(Console.ReadLine(), out druheCislo));
+
+            Kalkulacka kalkulacka = new Kalkulacka(prvniCislo, druheCislo);
+           
+
+
+          
             kalkulacka.Vydelit();
         }
     }
