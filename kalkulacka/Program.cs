@@ -10,6 +10,9 @@ namespace kalkulacka
     {
         static void Main(string[] args)
         {
+
+            Kalkulacka kalkulacka = new Kalkulacka(3,5);
+            kalkulacka.Vydelit();
         }
     }
 }

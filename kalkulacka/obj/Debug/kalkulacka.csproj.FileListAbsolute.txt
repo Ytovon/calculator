@@ -1,0 +1,7 @@
+C:\Users\c22novotnyj2\Documents\GitHub\calculator\kalkulacka\bin\Debug\kalkulacka.exe.config
+C:\Users\c22novotnyj2\Documents\GitHub\calculator\kalkulacka\bin\Debug\kalkulacka.exe
+C:\Users\c22novotnyj2\Documents\GitHub\calculator\kalkulacka\bin\Debug\kalkulacka.pdb
+C:\Users\c22novotnyj2\Documents\GitHub\calculator\kalkulacka\obj\Debug\kalkulacka.csproj.AssemblyReference.cache
+C:\Users\c22novotnyj2\Documents\GitHub\calculator\kalkulacka\obj\Debug\kalkulacka.csproj.CoreCompileInputs.cache
+C:\Users\c22novotnyj2\Documents\GitHub\calculator\kalkulacka\obj\Debug\kalkulacka.exe
+C:\Users\c22novotnyj2\Documents\GitHub\calculator\kalkulacka\obj\Debug\kalkulacka.pdb

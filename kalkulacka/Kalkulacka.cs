@@ -8,10 +8,10 @@ namespace kalkulacka
 {
     internal class Kalkulacka
     {
-        public int PrvniCislo { get; }
-        public int DruhéCislo { get; }
+        public double PrvniCislo { get; }
+        public double DruhéCislo { get; }
 
-        public int vysledek { get; set; }
+        public double vysledek { get; private set; }
 
         public Kalkulacka(int prvniCislo, int druheCislo) { 
             this.PrvniCislo = prvniCislo;
@@ -21,13 +21,30 @@ namespace kalkulacka
         public void Secti()
         {
             this.vysledek = this.PrvniCislo + this.DruhéCislo;
+            VypisVysledek();
         }
 
         public void Odecti()
         {
             this.vysledek = this.PrvniCislo - this.DruhéCislo;
+            VypisVysledek();
+        }
+        public void Vynasobit()
+        {
+            this.vysledek = this.PrvniCislo * this.DruhéCislo;
+            VypisVysledek();
         }
 
+        public void Vydelit()
+        {
+            this.vysledek = this.PrvniCislo / this.DruhéCislo;
+            VypisVysledek();
+        }
+
+        private void VypisVysledek()
+        {
+            Console.WriteLine("Vysledek: " + this.vysledek);
+        }
 
 
     }
