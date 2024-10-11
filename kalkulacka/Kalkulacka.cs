@@ -23,6 +23,12 @@ namespace kalkulacka
             this.vysledek = this.PrvniCislo + this.DruhéCislo;
         }
 
+        public void Odecti()
+        {
+            this.vysledek = this.PrvniCislo - this.DruhéCislo;
+        }
+
+
 
     }
 }
